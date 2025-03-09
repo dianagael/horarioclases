@@ -1,0 +1,125 @@
+/* Estilos generales */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f5f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-image: url('encabezado.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    text-align: center;
+    padding: 50px 0; 
+    color: #490f05; 
+    position: relative;
+    height: 300px; 
+}
+
+/* Títulos */
+h1, h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #490f05; 
+}
+
+h1 {
+    top: 25%;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h2 {
+    top: 60%;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #cba794;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Contenido */
+main {
+    padding: 40px 20px; 
+    text-align: center;
+}
+
+section {
+    margin-bottom: 50px; 
+    padding: 20px;
+    background: white;
+    border-radius: 0px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 40px auto; 
+    border-top: 2px solid #f4b78b; 
+}
+
+h3 {
+    font-size: 24px;
+    color: #bb4430;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Imagen */
+img {
+    width: 60%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Pie de foto */
+.pie-de-foto {
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+}
+
+/* Pie de página */
+footer p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.autor {
+    font-size: 16px;
+}
+
+.anio {
+    font-size: 14px;
+}
